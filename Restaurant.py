@@ -2,7 +2,7 @@ from tkinter import *
 import random
 import time
 root=Tk()
-root.title("hotel Management")
+root.title("Resturant Management")
 root.geometry("1600x800+0+0")
 root.configure(background="powder blue")
 frame_1=Frame(root, bg='powder blue', width=1600,height=50)
@@ -29,7 +29,7 @@ lab1L.grid(row=0,column=0)
 localtime=time.asctime(time.localtime(time.time()))
 lab2L=Label(frame_1,text=localtime,font=( 'aria' ,20, 'bold' ))
 lab2L.grid(row=1,column=0)
-lab3L=Label(frame_1,text="made by:- DINESH KAR",font=( 'aria' ,20, 'bold' ),fg="steel blue")
+lab3L=Label(frame_1,text="Made By:- PRATTAY SANYAL",font=( 'aria' ,20, 'bold' ),fg="steel blue")
 lab3L.grid(row=2,column=0)
                 #---------------order--------------------------
 orderL=Label(frame_2,text="order number",font=( 'aria' ,18, 'bold' ),fg="steel blue",bg="powder blue")
